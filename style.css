@@ -1,0 +1,44 @@
+/******************************** PAGE PRINCIPALE ********************************/
+
+
+
+
+/******************************** TEXTE ********************************/
+
+.centre{
+    text-align: center;
+}
+
+.centrer{
+    align-items: center;
+}
+
+.colonne-centree
+{
+    float: none;
+    margin: 0 auto;
+}
+
+
+/******************************** IMAGES ********************************/
+
+.image:hover {
+-webkit-transform:scale(2); /* Safari et Chrome */
+-moz-transform:scale(2; /* Firefox */
+-ms-transform:scale(2; /* Internet Explorer 9 */
+-o-transform:scale(2; /* Opera */
+transform:scale(2;
+}
+
+
+/******************************** RESPONSIVITÉ ********************************/
+
+@media screen and (max-width: 992px) {
+    .imageanthony { display: none }
+    .titrecontact{ text-align: center }
+}
+
+@media screen and (max-width: 768px) {
+    .titrecontact{ display: none }
+}
+
