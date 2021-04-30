@@ -1,8 +1,3 @@
-/******************************** PAGE PRINCIPALE ********************************/
-
-
-
-
 /******************************** TEXTE ********************************/
 
 .centre{
@@ -17,17 +12,6 @@
 {
     float: none;
     margin: 0 auto;
-}
-
-
-/******************************** IMAGES ********************************/
-
-.image:hover {
--webkit-transform:scale(2); /* Safari et Chrome */
--moz-transform:scale(2; /* Firefox */
--ms-transform:scale(2; /* Internet Explorer 9 */
--o-transform:scale(2; /* Opera */
-transform:scale(2;
 }
 
 
