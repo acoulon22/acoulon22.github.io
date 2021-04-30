@@ -1,0 +1,5 @@
+<footer class="footer mt-auto py-3 bg-dark">
+        <div class="row col-12 offset-lg-5 offset-md-4 offset-sm-3 offset-2">
+            <address class="text-muted">&nbsp; Copyright © 2021 <a href="mailto:anthony.coulon@etudiant.univ-rennes1.fr"><ins>Anthony Coulon</ins></a></address>
+        </div>
+</footer>

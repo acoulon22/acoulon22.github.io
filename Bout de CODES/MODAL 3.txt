@@ -1,0 +1,29 @@
+<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal3">
+  Plus d'info !
+</button>
+
+<!-- Modal numéro 3 --> 
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Projet <q> Calcul facture pour gîte </q><br>
+        <small class="text-muted">Projet 3 (personnel)</small></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+    <p><ins><strong>Description :</strong></ins> Ce projet, écrit en langage C, a été réalisé personnellement pour facilité les calculs pour une location d'un gîte (de mes proches). <br>La complexité n'était pas vraiment le fait de calculer l'acompte d'une location ou le montant global, mais plutôt le calcul de la taxe de séjour qui n'est pas simple à faire manuellement. <br>L'affichage de ce programme est complet, il affiche le montant global, l'acompte, la taxe de séjour ainsi que le montant de la location après avoir régler l'acompte.
+	<ins><strong><br>
+    <br>Instruction pour accèder au projet :</strong></ins>&nbsp;une fois arrivé sur la démo, cliquez sur <strong>"Fork this"</strong>, choisissez le langage <strong>"C"</strong>, puis appuyez sur <strong>"Run"</strong>.
+	<br>PS : Il ne faut surtout pas que le mode "Google Traduction" ou autre traducteur soit activé sur la page web du site <a href="https://www.onlinegdb.com/">onlinegdb.com</a>, cela ferait planter le compilateur.
+	</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4" data-dismiss="modal" title="Calcul électricité">Projet suivant</button>
+      </div>
+    </div>
+  </div>
+</div>
