@@ -1,3 +1,14 @@
+/******************************** PRÉSENTATION ********************************/
+
+
+header{
+    width: 1024px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 4px inset #d2691e;
+    background-color: #fff;
+}
+
 /******************************** TEXTE ********************************/
 
 .centre{
