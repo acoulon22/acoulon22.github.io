@@ -1,8 +1,8 @@
 /******************************** PRÉSENTATION ********************************/
 
 
-header{
-    width: 1024px;
+{
+    width: 900px;
     margin: 20px auto;
     padding: 10px;
     border: 4px inset #d2691e;
@@ -16,13 +16,19 @@ header{
 }
 
 .centrer{
-    align-items: center;
+    align-self: center;
 }
 
 .colonne-centree
 {
     float: none;
     margin: 0 auto;
+}
+
+.listecentree{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 
