@@ -27,7 +27,7 @@
 /******************************** RESPONSIVITÉ ********************************/
 
 @media screen and (max-width: 992px) {
-    .imageanthony { width: 200px }
+    .imageanthony { display: none }
 }
 
 @media screen and (max-width: 768px) {
@@ -36,9 +36,4 @@
 
 @media screen and (max-width: 480px) {
     .moncv{ width: 360px }
-}
-
-@media screen and (max-width: 768px) {
-    .projet{ width: 300px;
-    }
 }
