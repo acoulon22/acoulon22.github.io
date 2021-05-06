@@ -1,14 +1,6 @@
 /******************************** PRÉSENTATION ********************************/
 
 
-{
-    width: 900px;
-    margin: 20px auto;
-    padding: 10px;
-    border: 4px inset #d2691e;
-    background-color: #fff;
-}
-
 /******************************** TEXTE ********************************/
 
 .centre{
@@ -35,14 +27,18 @@
 /******************************** RESPONSIVITÉ ********************************/
 
 @media screen and (max-width: 992px) {
-    .imageanthony { display: none }
-    .titrecontact{ text-align: center }
+    .imageanthony { width: 80px }
 }
 
 @media screen and (max-width: 768px) {
-    .titrecontact{ display: none }
+    .titrecontact{ font-size: 1em }
 }
 
 @media screen and (max-width: 480px) {
     .moncv{ width: 360px }
+}
+
+@media screen and (max-width: 768px) {
+    .projet{ width: 420px;
+    }
 }
