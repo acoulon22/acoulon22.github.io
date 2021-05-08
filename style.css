@@ -1,0 +1,39 @@
+/******************************** PRÉSENTATION ********************************/
+
+
+/******************************** TEXTE ********************************/
+
+.centre{
+    text-align: center;
+}
+
+.centrer{
+    align-self: center;
+}
+
+.colonne-centree
+{
+    float: none;
+    margin: 0 auto;
+}
+
+.listecentree{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+/******************************** RESPONSIVITÉ ********************************/
+
+@media screen and (max-width: 992px) {
+    .imageanthony { display: none }
+}
+
+@media screen and (max-width: 768px) {
+    .titrecontact{ font-size: 1em }
+}
+
+@media screen and (max-width: 480px) {
+    .moncv{ width: 360px }
+}
