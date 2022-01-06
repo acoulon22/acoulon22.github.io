@@ -30,6 +30,10 @@
     .imageanthony { display: none }
 }
 
+@media screen and (min-width: 992px) {
+    nav .pagination { margin-left: 37% }
+}
+
 @media screen and (max-width: 768px) {
     .titrecontact{ font-size: 1em }
 }
