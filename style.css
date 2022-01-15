@@ -1,43 +1,57 @@
-/******************************** PRÉSENTATION ********************************/
-
-
 /******************************** TEXTE ********************************/
 
-.centre{
+.centre {
     text-align: center;
 }
 
-.centrer{
+.centrer {
     align-self: center;
 }
 
-.colonne-centree
-{
+.colonne-centree {
     float: none;
     margin: 0 auto;
 }
 
-.listecentree{
+.listecentree {
     display: block;
     margin-left: auto;
     margin-right: auto
 }
 
+/******************************** ZOOM IMAGES ********************************/
+
+.zoom-hover:hover .zoom img {
+    -moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.2);
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 1.1s;
+}
 
 /******************************** RESPONSIVITÉ ********************************/
 
 @media screen and (max-width: 992px) {
-    .imageanthony { display: none }
+    .imageanthony {
+        display: none
+    }
 }
 
 @media screen and (min-width: 992px) {
-    nav .pagination { margin-left: 37% }
+    nav .pagination {
+        margin-left: 37%
+    }
 }
 
 @media screen and (max-width: 768px) {
-    .titrecontact{ font-size: 1em }
+    .titrecontact {
+        font-size: 1em
+    }
 }
 
 @media screen and (max-width: 480px) {
-    .moncv{ width: 360px }
+    .moncv {
+        width: 360px
+    }
 }

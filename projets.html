@@ -81,9 +81,13 @@
             <div class="row cols-12">
                 <div class="col">
                     <div class="card shadow-sm">
-                        <a href="images/projet1.png" target="_blank">
-                            <figure><img src="images/projet1.png" title="Projet 1" alt="Projet 1" class="img-thumbnail"></figure>
-                        </a>
+                        <figure>
+                            <div class="zoom-hover">
+                                <div class="zoom">
+                                    <img src="images/projet1.png" title="Projet 1" alt="Projet 1" class="img-thumbnail">
+                                </div>
+                            </div>
+                        </figure>
 
                         <div class="card-body">
                             <h3 class="h5 mb-1"><a href="https://gitlab.com/acoulon/domotique" target="_blank">Projet <q> Domotique </q></a></h3>
@@ -127,9 +131,13 @@
 
                 <div class="col">
                     <div class="card shadow-sm">
-                        <a href="images/projet2.png" target="_blank">
-                            <figure><img src="images/projet2.png" title="Projet 2" alt="Projet 2" class="img-thumbnail"></figure>
-                        </a>
+                        <figure>
+                            <div class="zoom-hover">
+                                <div class="zoom">
+                                    <img src="images/projet2.png" title="Projet 2" alt="Projet 2" class="img-thumbnail">
+                                </div>
+                            </div>
+                        </figure>
 
                         <div class="card-body">
                             <h3 class="h5 mb-1"><a href="https://infolannion.com/g21/index.html" target="_blank">Projet <q> Lien social et l'informatique </q></a></h3>
@@ -176,27 +184,23 @@
 
     <div class="album py-5 bg-light">
         <div class="container">
-
-            <div class="row col-12" id="programmes">
-                <div class="container py-5" id="custom-cards">
-                    <h2 class="pb-2 border-bottom border-left border-secondary">Mes projets personnels</h2>
-                </div>
-            </div>
-            <br>
-
             <div class="row cols-12">
                 <div class="col">
                     <div class="card shadow-sm">
-                        <a href="images/projet3.png" target="_blank">
-                            <figure><img src="images/projet3.png" title="Projet 3" alt="Projet 3" class="img-thumbnail"></figure>
-                        </a>
+                        <figure>
+                            <div class="zoom-hover">
+                                <div class="zoom">
+                                    <img src="images/projet3.png" title="Projet 3" alt="Projet 3" class="img-thumbnail">
+                                </div>
+                            </div>
+                        </figure>
 
                         <div class="card-body">
-                            <h3 class="h5 mb-1"><a href="https://onlinegdb.com/SyjJ0268d" target="_blank">Projet <q> Calcul facture pour gîte </q></a></h3>
-                            <p class="card-text">Mon premier projet personnel est un programme écrit en langage C, il m'a permis de passer de la complexité des calculs à la simplicité...<br>(Il est préférable de lire "Plus d'info !" ou de visionner le tuto en cliquant <a href="#tuto"><strong><ins>ici</ins></strong></a> avant de lancer la démo)</p>
+                            <h3 class="h5 mb-1"><a href="https://gitlab.com/acoulon/domotique" target="_blank">Projet <q> La Tournée des Facteurs </q></a></h3>
+                            <p class="card-text">Mon dernier projet de première année, concevoir, développer et implémenter une application en Java...</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="https://onlinegdb.com/SyjJ0268d" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Voir démo en ligne</button></a>
+                                    <a href="https://gitlab.com/NoamRault/tourneefacteur/-/tree/master/TourneeFacteur" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Voir le code en ligne</button></a>
                                     &nbsp;
                                     <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal3">
                                         Plus d'info !
@@ -207,23 +211,19 @@
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h5 class="modal-title" id="exampleModalLabel">Projet <q> Calcul facture pour gîte </q><br>
-                                                        <small class="text-muted">Projet 3 (personnel)</small>
+                                                    <h5 class="modal-title" id="exampleModalLabel">Projet <q> La Tournée des Facteurs </q><br>
+                                                        <small class="text-muted">Projet 3 (en équipe à l'IUT)</small>
                                                     </h5>
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <p><ins><strong>Description :</strong></ins> Ce projet, écrit en langage C, a été réalisé personnellement pour facilité les calculs pour une location d'un gîte (de mes proches). <br>La complexité n'était pas vraiment le fait de calculer l'acompte d'une location ou le montant global, mais plutôt le calcul de la taxe de séjour qui n'est pas simple à faire manuellement. <br>L'affichage de ce programme est complet, il affiche le montant global, l'acompte, la taxe de séjour ainsi que le montant de la location après avoir régler l'acompte.
-                                                        <ins><strong><br>
-                                                                <br>Instruction pour accèder au projet :</strong></ins>&nbsp;une fois arrivé sur la démo, cliquez sur <strong>"Fork this"</strong>, choisissez le langage <strong>"C"</strong>, puis appuyez sur <strong>"Run"</strong>.
-                                                        <br>PS : Il ne faut surtout pas que le mode "Google Traduction" ou autre traducteur soit activé sur la page web du site <a href="https://www.onlinegdb.com/" target="_blank">onlinegdb.com</a>, cela ferait planter le compilateur.
-                                                    </p>
+                                                    <p><ins><strong>Description :</strong></ins> Ce projet a été conçu en équipe, il a pour but de simplifier la tournée des facteurs. C'est une application codée en Java, elle permet de trouver la plus petite distance et durée en fonction des courriers à livrer et des véhicules à disposition. Une gestion des utilisateurs ainsi que des véhicules, courriers et de l'itinéraire est intégrée.</p>
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4" data-dismiss="modal" title="Calcul électricité">Projet suivant</button>
+                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4" title="Lien social et l'informatique" data-dismiss="modal">Projet suivant</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -237,16 +237,20 @@
 
                 <div class="col">
                     <div class="card shadow-sm">
-                        <a href="images/projet4.png" target="_blank">
-                            <figure><img src="images/projet4.png" title="Projet 4" alt="Projet 4" class="img-thumbnail"></figure>
-                        </a>
+                        <figure>
+                            <div class="zoom-hover">
+                                <div class="zoom">
+                                    <img src="images/projet4.png" title="Projet 4" alt="Projet 4" class="img-thumbnail">
+                                </div>
+                            </div>
+                        </figure>
 
                         <div class="card-body">
-                            <h3 class="h5 mb-1"><a href="https://onlinegdb.com/ry8keaa8d" target="_blank">Projet <q> Calcul électricité </q></a></h3>
-                            <p class="card-text">Mon second projet personnel est un programme écrit également en langage C, il m'a fais gagner en rapidité...<br>(Il est préférable de lire "Plus d'info !" ou de visionner le tuto en cliquant <a href="#tuto"><strong><ins>ici</ins></strong></a> avant de lancer la démo)</p>
+                            <h3 class="h5 mb-1"><a href="https://infolannion.com/g21/index.html" target="_blank">Projet <q> Gestionnaire de films </q></a></h3>
+                            <p class="card-text">Mon premier projet de seconde année consistait à développer un site dynamique en PHP...</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="https://onlinegdb.com/ry8keaa8d" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Voir démo en ligne</button></a>
+                                    <a href="http://webetuinfo.iutlan.univ-rennes1.fr/b23/html/index.php" target="_blank"><button type="button" class="btn btn-sm btn-warning">Voir site en ligne (lien indisponible)</button></a>
                                     &nbsp;
                                     <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal4">
                                         Plus d'info !
@@ -257,23 +261,19 @@
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h5 class="modal-title" id="exampleModalLabel">Projet <q> Calcul électricité </q><br>
-                                                        <small class="text-muted">Projet 4 (personnel)</small>
+                                                    <h5 class="modal-title" id="exampleModalLabel">Projet <q> Gestionnaire de films </q><br>
+                                                        <small class="text-muted">Projet 4 (en équipe à l'IUT)</small>
                                                     </h5>
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <p><ins><strong>Description :</strong></ins> Ce projet a été réalisé personnellement pour facilité les calculs d'électricité d'une location saisonnière d'un gîte (de mes proches). <br>Ce programme, écrit en langage C, ne se soucie pas de la location du compteur électrique, ce qui le rend efficace. De plus, il prend en compte toutes les taxes et celles-ci ont été préalablement initialisées en constante pour prévoir un potentiel changement du taux de taxe ou bien du prix de l'électricité.
-                                                        <ins><strong><br>
-                                                                <br>Instruction pour accèder au projet :</strong></ins>&nbsp;une fois arrivé sur la démo, cliquez sur <strong>"Fork this"</strong>, choisissez le langage <strong>"C"</strong>, puis appuyez sur <strong>"Run"</strong>.
-                                                        <br>PS : Il ne faut surtout pas que le mode "Google Traduction" ou autre traducteur soit activé sur la page web du site <a href="https://www.onlinegdb.com/" target="_blank">onlinegdb.com</a>, cela ferait planter le compilateur.
-                                                    </p>
+                                                    <p><ins><strong>Description :</strong></ins> Ce projet a été développé en PHP, en duo, il consiste à gérer une liste de films des collectionneurs ainsi que les collectionneurs eux-même avec la partie back-office. Nous avons créer une base de données pour gérer les comptes utilisateurs et les films. Le développement s'est fait à l'aide du framework <a href="https://codeigniter.com/" target="_blank">CodeIgniter</a> et l'intégration a été facilité par l'usage d'un outil collaboratif tel que <a href="https://gitlab.com" target="_blank">GitLab</a>.</p>
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal5" data-dismiss="modal" title="Calcul nombre de jours de dates">Projet suivant</button>
+                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal5" data-dismiss="modal" title="Calcul facture pour gîte">Projet suivant</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -291,21 +291,30 @@
     <div class="album py-5 bg-light">
         <div class="container">
 
+            <div class="row col-12" id="programmes">
+                <div class="container py-5" id="custom-cards">
+                    <h2 class="pb-2 border-bottom border-left border-secondary">Mes projets personnels</h2>
+                </div>
+            </div>
             <br>
 
-            <div class="row cols-12 col-lg-7 offset-lg-3">
+            <div class="row cols-12">
                 <div class="col">
                     <div class="card shadow-sm">
-                        <a href="images/projet5.jpg" target="_blank">
-                            <figure><img src="images/projet5.jpg" title="Projet 5" alt="Projet 5" class="img-thumbnail"></figure>
-                        </a>
+                        <figure>
+                            <div class="zoom-hover">
+                                <div class="zoom">
+                                    <img src="images/projet5.png" title="Projet 5" alt="Projet 5" class="img-thumbnail">
+                                </div>
+                            </div>
+                        </figure>
 
                         <div class="card-body">
-                            <h3 class="h5 mb-1"><a href="https://onlinegdb.com/H1BRgPguO" target="_blank">Projet <q> Recherche du nombre de jours suivant des dates </q></a></h3>
-                            <p class="card-text">Mon troisième projet personnel est un programme écrit en langage Java, il m'a entraîné à faire des programmes utiles... <br>(Il est préférable de lire "Plus d'info !" ou de visionner le tuto en cliquant <a href="#tuto"><strong><ins>ici</ins></strong></a> avant de lancer la démo)</p>
+                            <h3 class="h5 mb-1"><a href="https://onlinegdb.com/SyjJ0268d" target="_blank">Projet <q> Calcul facture pour gîte </q></a></h3>
+                            <p class="card-text">Mon premier projet personnel est un programme écrit en langage C, il m'a permis de passer de la complexité des calculs à la simplicité...<br>(Il est préférable de lire "Plus d'info !" ou de visionner le tuto en cliquant <a href="#tuto"><strong><ins>ici</ins></strong></a> avant de lancer la démo)</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="https://onlinegdb.com/H1BRgPguO" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Voir démo en ligne</button></a>
+                                    <a href="https://onlinegdb.com/SyjJ0268d" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Voir démo en ligne</button></a>
                                     &nbsp;
                                     <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal5">
                                         Plus d'info !
@@ -316,8 +325,122 @@
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h5 class="modal-title" id="exampleModalLabel">Projet <q> Calcul nombre de jours de dates </q><br>
+                                                    <h5 class="modal-title" id="exampleModalLabel">Projet <q> Calcul facture pour gîte </q><br>
                                                         <small class="text-muted">Projet 5 (personnel)</small>
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p><ins><strong>Description :</strong></ins> Ce projet, écrit en langage C, a été réalisé personnellement pour facilité les calculs pour une location d'un gîte (de mes proches). <br>La complexité n'était pas vraiment le fait de calculer l'acompte d'une location ou le montant global, mais plutôt le calcul de la taxe de séjour qui n'est pas simple à faire manuellement. <br>L'affichage de ce programme est complet, il affiche le montant global, l'acompte, la taxe de séjour ainsi que le montant de la location après avoir régler l'acompte.
+                                                        <ins><strong><br>
+                                                                <br>Instruction pour accèder au projet :</strong></ins>&nbsp;une fois arrivé sur la démo, cliquez sur <strong>"Fork this"</strong>, choisissez le langage <strong>"C"</strong>, puis appuyez sur <strong>"Run"</strong>.
+                                                        <br>PS : Il ne faut surtout pas que le mode "Google Traduction" ou autre traducteur soit activé sur la page web du site <a href="https://www.onlinegdb.com/" target="_blank">onlinegdb.com</a>, cela ferait planter le compilateur.
+                                                    </p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal6" data-dismiss="modal" title="Calcul électricité">Projet suivant</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <small class="text-muted">Projet 5</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <figure>
+                            <div class="zoom-hover">
+                                <div class="zoom">
+                                    <img src="images/projet6.png" title="Projet 6" alt="Projet 6" class="img-thumbnail">
+                                </div>
+                            </div>
+                        </figure>
+
+                        <div class="card-body">
+                            <h3 class="h5 mb-1"><a href="https://onlinegdb.com/ry8keaa8d" target="_blank">Projet <q> Calcul électricité </q></a></h3>
+                            <p class="card-text">Mon second projet personnel est un programme écrit également en langage C, il m'a fais gagner en rapidité...<br>(Il est préférable de lire "Plus d'info !" ou de visionner le tuto en cliquant <a href="#tuto"><strong><ins>ici</ins></strong></a> avant de lancer la démo)</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://onlinegdb.com/ry8keaa8d" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Voir démo en ligne</button></a>
+                                    &nbsp;
+                                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal6">
+                                        Plus d'info !
+                                    </button>
+
+                                    <!-- Modal numéro 6 -->
+                                    <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Projet <q> Calcul électricité </q><br>
+                                                        <small class="text-muted">Projet 6 (personnel)</small>
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p><ins><strong>Description :</strong></ins> Ce projet a été réalisé personnellement pour facilité les calculs d'électricité d'une location saisonnière d'un gîte (de mes proches). <br>Ce programme, écrit en langage C, ne se soucie pas de la location du compteur électrique, ce qui le rend efficace. De plus, il prend en compte toutes les taxes et celles-ci ont été préalablement initialisées en constante pour prévoir un potentiel changement du taux de taxe ou bien du prix de l'électricité.
+                                                        <ins><strong><br>
+                                                                <br>Instruction pour accèder au projet :</strong></ins>&nbsp;une fois arrivé sur la démo, cliquez sur <strong>"Fork this"</strong>, choisissez le langage <strong>"C"</strong>, puis appuyez sur <strong>"Run"</strong>.
+                                                        <br>PS : Il ne faut surtout pas que le mode "Google Traduction" ou autre traducteur soit activé sur la page web du site <a href="https://www.onlinegdb.com/" target="_blank">onlinegdb.com</a>, cela ferait planter le compilateur.
+                                                    </p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal7" data-dismiss="modal" title="Calcul nombre de jours de dates">Projet suivant</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <small class="text-muted">Projet 6</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <div class="row cols-12">
+                <div class="col-6">
+                    <div class="card shadow-sm">
+                        <figure>
+                            <div class="zoom-hover">
+                                <div class="zoom">
+                                    <img src="images/projet7.jpg" title="Projet 7" alt="Projet 7" class="img-thumbnail">
+                                </div>
+                            </div>
+                        </figure>
+
+                        <div class="card-body">
+                            <h3 class="h5 mb-1"><a href="https://onlinegdb.com/H1BRgPguO" target="_blank">Projet <q> Recherche du nombre de jours suivant des dates </q></a></h3>
+                            <p class="card-text">Mon troisième projet personnel est un programme écrit en langage Java, il m'a entraîné à faire des programmes utiles... <br>(Il est préférable de lire "Plus d'info !" ou de visionner le tuto en cliquant <a href="#tuto"><strong><ins>ici</ins></strong></a> avant de lancer la démo)</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://onlinegdb.com/H1BRgPguO" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">Voir démo en ligne</button></a>
+                                    &nbsp;
+                                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal7">
+                                        Plus d'info !
+                                    </button>
+
+                                    <!-- Modal numéro 5 -->
+                                    <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Projet <q> Calcul nombre de jours de dates </q><br>
+                                                        <small class="text-muted">Projet 7 (personnel)</small>
                                                     </h5>
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
@@ -338,7 +461,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <small class="text-muted">Projet 5</small>
+                                <small class="text-muted">Projet 7</small>
                             </div>
                         </div>
                     </div>
@@ -384,6 +507,4 @@
         </div>
     </footer>
 
-</body>
-
-</html>
+</body></html>
