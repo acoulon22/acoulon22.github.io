@@ -6,23 +6,53 @@
     <meta name="description" content="Anthony Coulon, stage, professionnel" />
     <meta name="keywords" content="Anthony Coulon, stage, professionnel" />
     <title>Anthony Coulon | Mon site personnel</title>
-    <link rel="shortcut icon" href="images/logo6te.png">
+    <link rel="shortcut icon" href="images/logo6te.jfif">
     <link rel="stylesheet" type="text/css" href="style.css">
     <style type="text/css"></style>
     <link rel="stylesheet" href="css/bootstrap.css" />
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <style>
+        .alert p {
+            font-size: large;
+            line-height: 1.8em;
+        }
+
+        .left:before {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 10px 20px 10px 0;
+            border-color: transparent #198754 transparent transparent;
+            left: -20px;
+            top: 10px;
+        }
+
+        .right:before {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 10px 0 10px 20px;
+            border-color: transparent transparent transparent #0B58CB;
+            right: -20px;
+            top: 10px;
+        }
+    </style>
 </head>
 
 
 <body>
-
-
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark row">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="accueil.html"><img class="img-thumbnail" src="images/logo-accueil.jpg" alt="accueil" title="accueil"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <a class="navbar-brand" href="accueil.html"><img class="img-thumbnail" src="images/logo-accueil.jpg"
+                    alt="accueil" title="accueil"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -37,31 +67,37 @@
                         <a class="nav-link" href="projets.html">PROJETS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="ensavoirplus.html" tabindex="-1" aria-disabled="true">EN SAVOIR PLUS</a>
+                        <a class="nav-link" href="ensavoirplus.html" tabindex="-1" aria-disabled="true">EN SAVOIR
+                            PLUS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true">CONTACT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="https://github.com/acoulon22" tabindex="-1"><img src="images/logogithub.png" alt="Github" title="Github"></a>
+                        <a class="nav-link active" href="https://github.com/acoulon22" tabindex="-1"><img
+                                src="images/logogithub.png" height="30" alt="Github" title="Github"></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="https://www.linkedin.com/in/anthony-coulon-3067b51b7/" tabindex="-1"><img src="images/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+                        <a class="nav-link active" href="https://www.linkedin.com/in/anthony-coulon-3067b51b7/"
+                            tabindex="-1"><img src="images/logo-linkedin.png" height="30" alt="Linkedin"
+                                title="Linkedin"></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="presentation.html" tabindex="-1" aria-disabled="true">ANTHONY COULON</a>
+                        <a class="nav-link active" href="mailto:antho.coulon22@gmail.com" tabindex="-1"
+                            aria-disabled="true"> <img src="images/mail.svg" height="30" alt="Envoyer un mail"
+                                title="Envoyer un mail"> ANTHONY
+                            COULON</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-
     <br>
     <br>
     <br>
 
-    <div class="row">
+    <div>
         <header class="jumbotron col-12">
             <ins>
                 <h1 class="display-5 text-center">PRÉSENTATION</h1>
@@ -69,43 +105,105 @@
         </header>
     </div>
 
-    <br>
-
-    <div class="row col-12">
-        <p class="col-8 offset-1 has-text-align-center jumbotron">
-            Je me présente, je m'appelle Anthony Coulon, mon parcours actuel est en deuxième année à l'Institut Universitaire de Technologie de Lannion pour obtenir un <abbr title="Diplôme Universitaire de Technologie">DUT</abbr>&nbsp;informatique.
-        </p>
-    </div>
-
-    <div class="row col-12">
-        <p class="col-8 offset-4 has-text-align-center jumbotron">
-            J'ai effectué un <a href="ensavoirplus.html#stage">stage de 3ème</a> dans la réparation informatique, il consistait à monter des tours <abbr title="Personnal Computer ou ordinateur personnel">PC</abbr>, nettoyer des ordinateurs et installer les logiciels de base. Cela m'a donné l'envie d'en apprendre plus sur ce métier.
-        </p>
-    </div>
-
-    <div class="row col-12">
-        <p class="col-8 offset-1 has-text-align-center jumbotron">
-            Suite à l'obtention d'un baccalauréat scientifique, mon choix d'orientation était évident et il s'est par conséquent tourné sans hésitation vers un DUT informatique (mon premier choix).
-        </p>
-    </div>
-
-    <div class="row col-12">
-        <p class="col-8 offset-4 has-text-align-center jumbotron">
-            Après avoir intégré l'<abbr title="Institut Universitaire de Technologie">IUT</abbr> de Lannion, je me suis découvert une passion pour la création <a href="projets.html#programmes">de programmes informatiques</a> (écrits en langage C ou Java) utiles dans la vie quotidienne (pour facilité la vie de mes proches) et dans l'avenir, celle des entreprises.
-        </p>
-    </div>
-
-    <div class="row col-12 offset-lg-4 offset-md-3">
-        <h3><strong><ins>Mon CV</ins></strong></h3>&nbsp;&nbsp;&nbsp;
-        <a href="images/CV%20-%20Anthony%20Coulon.pdf">
-            <button type="button" class="btn btn-success">Cliquez ici pour le télécharger !</button>
-        </a>
-    </div>
-
-    <br>
-
-    <div class="offset-lg-4 offset-md-3">
-        <a href="images/CV%20-%20Anthony%20Coulon.pdf" target="_blank"><img class="moncv" src="images/Mon_CV.png" alt="Mon CV" title="Mon CV" height="620" width="480"></a>
+    <div class="container mt-4">
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="alert alert-success left" role="alert">
+                    <h4 class="alert-heading">Mon parcours</h4>
+                    <p class="col-10 offset-1 has-text-align-center">
+                        Je me présente, je m'appelle Anthony Coulon, j'ai obtenu mon <abbr
+                            title="Diplôme Universitaire de Technologie">DUT</abbr>&nbsp;Informatique en 2022 à
+                        l'Institut Universitaire de Technologie (IUT) de Lannion.
+                        <br><br>
+                        Je suis actuellement dans cet établissement pour obtenir une licence professionnelle en
+                        Développement d'applications Web et mobile. J'effectue cette licence en alternance au sein de
+                        l'organisation multinationale Nokia.<img src="images/nokia.png" height="50" alt="Nokia"
+                            title="Nokia">
+                    </p>
+                    <hr>
+                    <small class="mb-0">Alternant en Développement Web et mobile chez Nokia</small>
+                </div>
+            </div>
+            <div class="col-md-6">
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6 order-md-2">
+                <div class="alert alert-primary right" role="alert">
+                    <h4 class="alert-heading">Stage de 3ème</h4>
+                    <p class="col-10 offset-1 has-text-align-center">
+                        J'ai effectué un <a href="ensavoirplus.html#stage">stage de 3ème</a> chez <a href="https://www.facebook.com/mgeinformatique" target="_blank">MGE Informatique</a> qui consistait à monter des tours <abbr
+                            title="Personnal Computer ou ordinateur personnel">PC</abbr>, nettoyer des ordinateurs et
+                        installer les logiciels de base. Cela m'a donné envie d'en apprendre plus dans le domaine de l'informatique.
+                    </p>
+                    <hr>
+                    <small class="mb-0">Stage de découverte dans l'informatique</small>
+                </div>
+            </div>
+            <div class="col-md-6 order-md-1">
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="alert alert-success left" role="alert">
+                    <h4 class="alert-heading">Mes diplômes</h4>
+                    <p class="col-10 offset-1 has-text-align-center">
+                        Suite à l'obtention d'un baccalauréat scientifique, mon choix d'orientation était évident et il
+                        s'est par conséquent tourné sans hésitation vers un DUT informatique (mon premier choix) suivi
+                        d'une alternance en licence pro Web et mobile.
+                    </p>
+                    <hr>
+                    <small class="mb-0">Baccalauréat S et DUT Informatique</small>
+                </div>
+            </div>
+            <div class="col-md-6">
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6 order-md-2">
+                <div class="alert alert-primary right" role="alert">
+                    <h4 class="alert-heading">Mes passions informatiques</h4>
+                    <p class="col-10 offset-1 has-text-align-center">
+                        Après avoir intégré l'IUT de Lannion,
+                        je me suis découvert une passion pour la conception et le développement (principalement
+                        dynamiques mais aussi statiques) de sites et d'applications Web responsives. Dont un site pour présenter des gîtes et des applications de gestion de notes, de films, d'appels etc.
+                        <br><br>
+                        J'ai aussi dévéloppé des <a href="projets.html#programmes">programmes informatiques</a> (écrits
+                        en langage C ou Java) utiles dans la vie quotidienne (pour faciliter la vie de mes proches) et
+                        dans l'avenir, celle des entreprises.
+                    </p>
+                    <hr>
+                    <small class="mb-0">Conception et développement Web et mobile</small>
+                </div>
+            </div>
+            <div class="col-md-6 order-md-1">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mt-4 justify-content-center">
+                <div class="col-md-6">
+                    <div class="card border-0 shadow">
+                        <div class="card-body">
+                            <h2 class="card-title d-flex justify-content-center mb-4">Mon CV</h2>
+                            <div class="d-flex justify-content-center mb-4">
+                                <a href="images/CV - Anthony Coulon.pdf" download>
+                                    <button type="button" class="btn btn-primary" title="Télécharger le CV">
+                                        <img src="images/download.svg" height="26" alt="Télécharger ici"
+                                            title="Télécharger ici">
+                                        Télécharger
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="d-flex justify-content-center mb-4">
+                                <a href="images/CV - Anthony Coulon.pdf" target="_blank"><img src="images/Mon_CV.png"
+                                        alt="CV - Anthony Coulon" title="CV - Anthony Coulon"
+                                        class="img-fluid border border-primary" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <br>
@@ -126,12 +224,14 @@
         </nav>
     </div>
 
-
     <footer class="footer mt-auto py-3 bg-dark">
         <div>
-            <address class="text-muted centre">&nbsp; Copyright © 2022 <a href="mailto:anthony.coulon@etudiant.univ-rennes1.fr"><ins>Anthony Coulon</ins></a> | Site hébergé par <a href="https://github.com/" target="_blank"><ins>GitHub</ins></a></address>
+            <address class="text-muted centre">&nbsp; Copyright © 2022 <a
+                    href="mailto:antho.coulon22@gmail.com"><ins>Anthony Coulon</ins></a> | Site hébergé
+                par <a href="https://github.com/" target="_blank"><ins>GitHub</ins></a></address>
         </div>
     </footer>
 
+</body>
 
-</body></html>
+</html>
