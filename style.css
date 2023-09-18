@@ -19,6 +19,25 @@
     margin-right: auto
 }
 
+/******************************** SURVOLER ITEM DE RECHERCHE COMPÉTENCES ********************************/
+
+.list-group-item {
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+/******************************** CENTRER IMAGE NOKIA ********************************/
+
+.paragraphe-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /******************************** ZOOM IMAGES ********************************/
 
 .zoom-hover:hover .zoom img {
@@ -35,6 +54,10 @@
 @media screen and (max-width: 992px) {
     .imageanthony {
         display: none
+    }
+
+    .paragraphe-container {
+        display: block;
     }
 }
 

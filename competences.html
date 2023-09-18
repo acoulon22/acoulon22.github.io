@@ -74,8 +74,15 @@
         </header>
     </div>
 
+    <div class="container">
+        <h4>Recherche rapide de langages, logiciels et frameworks informatiques</h4>
+        <input type="search" id="searchInput" class="form-control" placeholder="Rechercher par exemple 'js, ts'">
+        <ul id="results" class="list-group mt-3">
+        </ul>
+    </div>
+
     <div class="container py-5" id="custom-cards">
-        <h2 class="pb-2 border-bottom border-left border-secondary">Maîtrise des langages informatiques
+        <h2 class="pb-2 border-bottom border-left border-secondary" id="HTML">Maîtrise des langages informatiques
         </h2>
     </div>
 
@@ -92,24 +99,30 @@
                     <td><a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language" target="_blank"><img
                                 src="images/HTML5_logo.png" height="70" title="HTML" alt="HTML"></a></td>
                     <td>
-                        <div class="col-md-10">
-                            <h5>HTML</h5>
+                        <div class="col-md-10" id="SASS">
+                            <h5 id="CSS">HTML</h5>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%;"
-                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 95%;"
+                                    aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
                             </div>
                         </div>
                     </td>
                 </tr>
                 <tr>
-                    <td><a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade" target="_blank"><img
-                                src="images/CSS3_logo.png" height="70" title="CSS" alt="CSS"></a></td>
                     <td>
-                        <div class="col-md-10">
-                            <h5>CSS</h5>
+                        <a href="https://sass-lang.com/" target="_blank">
+                            <img src="images/sass.png" height="70" title="SASS" alt="SASS">
+                        </a>
+                        <a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade" target="_blank">
+                            <img src="images/CSS3_logo.png" height="70" title="CSS" alt="CSS">
+                        </a>
+                    </td>
+                    <td>
+                        <div class="col-md-10" id="JavaScript (JS)">
+                            <h5 id="TypeScript (TS)">SASS (SCSS) / CSS</h5>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%;"
-                                    aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 85%;"
+                                    aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
                             </div>
                         </div>
                     </td>
@@ -131,10 +144,23 @@
                     </td>
                     <td>
                         <div class="col-md-10">
-                            <h5>JavaScript & TypeScript</h5>
+                            <h5 id="JSON">JavaScript (JS) & TypeScript (TS)</h5>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%;"
-                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 95%;"
+                                    aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="https://json.org/json-fr.html" target="_blank"><img src="images/json.png" height="70" title="JSON"
+                                alt="JSON"></a></td>
+                    <td>
+                        <div class="col-md-10">
+                            <h5 id="SQL">JSON</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 100%;"
+                                    aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
                             </div>
                         </div>
                     </td>
@@ -144,7 +170,7 @@
                                 alt="SQL"></a></td>
                     <td>
                         <div class="col-md-10">
-                            <h5>SQL</h5>
+                            <h5 id="PHP">SQL</h5>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%;"
                                     aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
@@ -157,10 +183,10 @@
                                 src="images/php.png" height="70" title="PHP" alt="PHP" width="150"></a></td>
                     <td>
                         <div class="col-md-10">
-                            <h5>PHP</h5>
+                            <h5 id="C">PHP</h5>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%;"
-                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 95%;"
+                                    aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
                             </div>
                         </div>
                     </td>
@@ -170,10 +196,10 @@
                             target="_blank"><img src="images/logo-langage-C.png" height="70" title="C" alt="C"></a></td>
                     <td>
                         <div class="col-md-10">
-                            <h5>C</h5>
+                            <h5 id="Python">C</h5>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%;"
-                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 85%;"
+                                    aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
                             </div>
                         </div>
                     </td>
@@ -183,7 +209,7 @@
                                 title="Python" alt="Python"></a></td>
                     <td>
                         <div class="col-md-10">
-                            <h5>Python</h5>
+                            <h5 id="UML">Python</h5>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 75%;"
                                     aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
@@ -196,7 +222,7 @@
                                 title="UML" alt="UML"></a></td>
                     <td>
                         <div class="col-md-10">
-                            <h5>UML</h5>
+                            <h5 id="Java">UML</h5>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%;"
                                     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
@@ -222,7 +248,7 @@
     </div>
 
     <div class="container py-5" id="custom-cards">
-        <h2 class="pb-2 border-bottom border-left border-secondary">Maîtrise des logiciels informatiques</h2>
+        <h2 class="pb-2 border-bottom border-left border-secondary" id="Visual Studio Code (VSC)">Maîtrise des logiciels informatiques</h2>
     </div>
 
     <div class="row col-lg-6 offset-lg-3 offset-md-3 col-sm-2 offset-sm-2">
@@ -239,10 +265,23 @@
                                 title="Visual Studio Code" height="70" alt="Visual Studio Code"></a></td>
                     <td>
                         <div class="col-md-10">
-                            <h5>Visual Studio Code</h5>
+                            <h5 id="Node.js">Visual Studio Code (VSC)</h5>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 100%;"
                                     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="https://nodejs.org/fr" target="_blank"><img src="images/nodejs.png"
+                                title="Node.js" height="70" alt="Node.js"></a></td>
+                    <td>
+                        <div class="col-md-10">
+                            <h5 id="phpMyAdmin">Node.js</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%;"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
                             </div>
                         </div>
                     </td>
@@ -252,7 +291,7 @@
                                 title="phpMyAdmin" height="70" alt="phpMyAdmin"></a></td>
                     <td>
                         <div class="col-md-10">
-                            <h5>phpMyAdmin</h5>
+                            <h5 id="Docker">phpMyAdmin</h5>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%;"
                                     aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
@@ -265,7 +304,7 @@
                                 height="70" alt="Docker"></a></td>
                     <td>
                         <div class="col-md-10">
-                            <h5>Docker</h5>
+                            <h5 id="Figma">Docker</h5>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%;"
                                     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
@@ -278,7 +317,7 @@
                                 height="70" alt="Figma"></a></td>
                     <td>
                         <div class="col-md-10">
-                            <h5>Figma</h5>
+                            <h5 id="Eclipse">Figma</h5>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%;"
                                     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
@@ -292,7 +331,7 @@
                     </td>
                     <td>
                         <div class="col-md-10">
-                            <h5>Eclipse</h5>
+                            <h5 id="Brackets">Eclipse</h5>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%;"
                                     aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
@@ -305,7 +344,7 @@
                                 height="70" alt="Brackets"></a></td>
                     <td>
                         <div class="col-md-10">
-                            <h5>Brackets</h5>
+                            <h5 id="MySQL Workbench">Brackets</h5>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%;"
                                     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
@@ -318,7 +357,7 @@
                                 title="MySQL Workbench" height="70" alt="MySQL Workbench"></a></td>
                     <td>
                         <div class="col-md-10">
-                            <h5>MySQL Workbench</h5>
+                            <h5 id="Spyder">MySQL Workbench</h5>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%;"
                                     aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
@@ -331,7 +370,7 @@
                                 title="Spyder" height="70" alt="Spyder"></a></td>
                     <td>
                         <div class="col-md-10">
-                            <h5>Spyder</h5>
+                            <h5 id="BOUML">Spyder</h5>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 75%;"
                                     aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
@@ -344,7 +383,7 @@
                                 title="BOUML" alt="BOUML"></a></td>
                     <td>
                         <div class="col-md-10">
-                            <h5>BOUML</h5>
+                            <h5 id="Code::Blocks">BOUML</h5>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%;"
                                     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
@@ -370,7 +409,7 @@
     </div>
 
     <div class="container py-5" id="custom-cards">
-        <h2 class="pb-2 border-bottom border-left border-secondary">Maîtrise des frameworks & bibliothèques</h2>
+        <h2 class="pb-2 border-bottom border-left border-secondary" id="Bootstrap">Maîtrise des frameworks & bibliothèques</h2>
     </div>
 
     <div class="row col-lg-6 offset-lg-3 offset-md-3 col-sm-2 offset-sm-2">
@@ -387,7 +426,7 @@
                                 title="Bootstrap" height="70" alt="Bootstrap"></a></td>
                     <td>
                         <div class="col-md-10">
-                            <h5>Bootstrap</h5>
+                            <h5 id="React">Bootstrap</h5>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%;"
                                     aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
@@ -400,23 +439,10 @@
                                 height="70" alt="React"></a></td>
                     <td>
                         <div class="col-md-10">
-                            <h5>React</h5>
+                            <h5 id="Angular">React</h5>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 95%;"
                                     aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td><a href="https://www.electronjs.org/fr/" target="_blank"><img src="images/electron.png"
-                                title="Electron" height="70" alt="Electron"></a></td>
-                    <td>
-                        <div class="col-md-10">
-                            <h5>Electron</h5>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%;"
-                                    aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
                             </div>
                         </div>
                     </td>
@@ -426,7 +452,98 @@
                                 height="70" alt="Angular"></a></td>
                     <td>
                         <div class="col-md-10">
-                            <h5>Angular</h5>
+                            <h5 id="Symfony">Angular</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%;"
+                                    aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="https://symfony.com/" target="_blank"><img src="images/symfony.png"
+                                title="Symfony" height="70" alt="Symfony"></a></td>
+                    <td>
+                        <div class="col-md-10">
+                            <h5 id="Laravel">Symfony</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%;"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="https://laravel.com/" target="_blank"><img src="images/laravel.png"
+                                title="Laravel" height="70" alt="Laravel"></a></td>
+                    <td>
+                        <div class="col-md-10">
+                            <h5 id="CodeIgniter">Laravel</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%;"
+                                    aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="https://codeigniter.com/" target="_blank"><img src="images/Codeigniter.png"
+                                title="CodeIgniter" height="70" alt="CodeIgniter"></a></td>
+                    <td>
+                        <div class="col-md-10">
+                            <h5 id="Prisma">CodeIgniter</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%;"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.prisma.io/" target="_blank"><img src="images/prisma.png"
+                                title="Prisma" height="70" alt="Prisma"></a></td>
+                    <td>
+                        <div class="col-md-10">
+                            <h5 id="SQLite">Prisma</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%;"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.sqlite.org/index.html" target="_blank"><img src="images/sqlite.jfif"
+                                title="SQLite" height="70" alt="SQLite"></a></td>
+                    <td>
+                        <div class="col-md-10">
+                            <h5 id="Electron">SQLite</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%;"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.electronjs.org/fr/" target="_blank"><img src="images/electron.png"
+                                title="Electron" height="70" alt="Electron"></a></td>
+                    <td>
+                        <div class="col-md-10">
+                            <h5 id="PyScript">Electron</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%;"
+                                    aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="https://pyscript.net/" target="_blank"><img src="images/pyscript.svg"
+                                title="PyScript" height="70" alt="PyScript"></a></td>
+                    <td>
+                        <div class="col-md-10">
+                            <h5>PyScript</h5>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%;"
                                     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
@@ -461,6 +578,8 @@
                 par <a href="https://github.com/" target="_blank"><ins>GitHub</ins></a></address>
         </div>
     </footer>
+
+    <script src="js/rechercheCompetences.js"></script>
 
 </body>
 
