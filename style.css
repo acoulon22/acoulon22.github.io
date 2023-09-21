@@ -30,6 +30,12 @@
     cursor: pointer;
 }
 
+/******************************** AJUSTER HAUTEUR IMAGE PROJET ********************************/
+
+.img-projet {
+    height: 21.5em !important;
+}
+
 /******************************** CENTRER IMAGE NOKIA ********************************/
 
 .paragraphe-container {
