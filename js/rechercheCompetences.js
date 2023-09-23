@@ -126,5 +126,7 @@ function displayResults(filteredData) {
         li.classList.add("list-group-item");
         results.appendChild(li);
     });
+
+    document.querySelectorAll('#results li')[0].classList.add('selected');
 }
 

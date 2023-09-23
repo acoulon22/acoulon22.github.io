@@ -19,7 +19,7 @@
     margin-right: auto
 }
 
-/******************************** SURVOLER ITEM DE RECHERCHE COMPÉTENCES ********************************/
+/******************************** ITEM DE RECHERCHE COMPÉTENCES SURVOLER & SELECTIONNER ********************************/
 
 .list-group-item {
     transition: background-color 0.3s ease;
@@ -28,6 +28,10 @@
 .list-group-item:hover {
     background-color: #e0e0e0;
     cursor: pointer;
+}
+
+.selected {
+    background-color: #e0e0e0 !important;
 }
 
 /******************************** AJUSTER HAUTEUR IMAGE PROJET ********************************/
