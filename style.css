@@ -19,6 +19,22 @@
     margin-right: auto
 }
 
+/******************************** BADGE DISPO & OUTILS ********************************/
+
+.dispo {
+    display: inline-flex !important;
+    align-items: center !important;
+    font-size: large !important;
+}
+
+.outils {
+    font-size: medium !important;
+}
+
+.outils:hover {
+    cursor: pointer;
+}
+
 /******************************** ITEM DE RECHERCHE COMPÉTENCES SURVOLER & SELECTIONNER ********************************/
 
 .list-group-item {

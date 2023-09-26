@@ -25,7 +25,7 @@ function handleKeyPress(event) {
     }
     else if (event.key === "Enter") {
         var selected = document.querySelector('.selected').innerHTML;
-        
+
         var itemSelected = selected.slice(0, selected.indexOf('<span'));
 
         const competence = document.getElementById(itemSelected);

@@ -35,39 +35,39 @@ const data = [
 ];
 
 const object = {
-    "HTML": "Langage",
-    "SASS (SCSS)": "Langage",
-    "CSS": "Langage",
-    "JavaScript (JS)": "Langage",
-    "TypeScript (TS)": "Langage",
-    "JSON": "Langage",
-    "SQL": "Langage",
-    "PHP": "Langage",
-    "C": "Langage",
-    "Python": "Langage",
-    "UML": "Langage",
-    "Java": "Langage",
-    "Visual Studio Code (VSC)": "Logiciel",
-    "Node.js": "Logiciel",
-    "phpMyAdmin": "Logiciel",
-    "Docker": "Logiciel",
-    "Figma": "Logiciel",
-    "Eclipse": "Logiciel",
-    "Brackets": "Logiciel",
-    "MySQL Workbench": "Logiciel",
-    "Spyder": "Logiciel",
-    "BOUML": "Logiciel",
-    "Code::Blocks": "Logiciel",
-    "Bootstrap": "Framework",
-    "React": "Framework",
-    "Angular": "Framework",
-    "Symfony": "Framework",
-    "Laravel": "Framework",
-    "CodeIgniter": "Framework",
-    "Prisma": "Framework",
-    "SQLite": "Framework",
-    "Electron": "Framework",
-    "PyScript": "Framework"
+    "HTML": "Langages",
+    "SASS (SCSS)": "Langages",
+    "CSS": "Langages",
+    "JavaScript (JS)": "Langages",
+    "TypeScript (TS)": "Langages",
+    "JSON": "Langages",
+    "SQL": "Langages",
+    "PHP": "Langages",
+    "C": "Langages",
+    "Python": "Langages",
+    "UML": "Langages",
+    "Java": "Langages",
+    "Visual Studio Code (VSC)": "Logiciels",
+    "Node.js": "Logiciels",
+    "phpMyAdmin": "Logiciels",
+    "Docker": "Logiciels",
+    "Figma": "Logiciels",
+    "Eclipse": "Logiciels",
+    "Brackets": "Logiciels",
+    "MySQL Workbench": "Logiciels",
+    "Spyder": "Logiciels",
+    "BOUML": "Logiciels",
+    "Code::Blocks": "Logiciels",
+    "Bootstrap": "Frameworks",
+    "React": "Frameworks",
+    "Angular": "Frameworks",
+    "Symfony": "Frameworks",
+    "Laravel": "Frameworks",
+    "CodeIgniter": "Frameworks",
+    "Prisma": "Frameworks",
+    "SQLite": "Frameworks",
+    "Electron": "Frameworks",
+    "PyScript": "Frameworks"
 };
 
 const searchInput = document.getElementById("searchInput");
@@ -102,7 +102,7 @@ function displayResults(filteredData) {
     filteredData.forEach(item => {
         const li = document.createElement("li");
         li.textContent = item;
-        li.onclick = function() {
+        li.onclick = function () {
             const competence = document.getElementById(item);
             competence.scrollIntoView({ behavior: "smooth" });
         };
@@ -110,13 +110,13 @@ function displayResults(filteredData) {
         const badge = document.createElement("span");
         badge.textContent = object[item];
         switch (object[item]) {
-            case "Logiciel":
+            case "Logiciels":
                 badge.classList.add("badge", "badge-primary", "ml-2");
                 break;
-            case "Langage":
+            case "Langages":
                 badge.classList.add("badge", "badge-success", "ml-2");
                 break;
-            case "Framework":
+            case "Frameworks":
                 badge.classList.add("badge", "badge-warning", "ml-2");
                 break;
         }
